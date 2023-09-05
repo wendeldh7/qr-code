@@ -1,0 +1,62 @@
+:root {
+    --White-card: hsl(0, 0%, 100%);
+    --Light-gray-background: hsl(212, 45%, 89%);
+    --Grayish-blue-font: hsl(220, 15%, 55%);
+    --Dark-blue-font-title: hsl(218, 44%, 22%);
+
+    --ff-outfit: 'Outfit', sans-serif;
+
+    --fw-400: 400;
+    --fw-700: 700;
+
+    --fs-title: 17px;
+    --fs-secondary: 10px;
+}
+
+body {
+    background-color: var(--Light-gray-background);
+}
+
+.container img {
+    height: 300px;
+    width: auto;
+}
+
+img {
+    border-radius: 22px;
+    margin-bottom: 12px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--White-card);
+    padding: 30px;
+    border-radius: 22px;
+}
+
+.title-one {
+    margin: 0 55px;
+    font-family: var(--ff-outfit);
+    font-weight: var(--fw-700);
+    font-size: var(--fs-title);
+    color: var(--Dark-blue-font-title);
+    margin-bottom: 12px;
+}
+
+.title-two {
+    margin: 0 65px;
+    font-family: var(--ff-outfit);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-secondary);
+    color: var(--Grayish-blue-font);
+}
+
+.three {
+    text-align: center;
+}
